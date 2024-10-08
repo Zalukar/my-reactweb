@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import myPhoto from './components/images/myPhoto.png';
 
 function Index() {
+  
   useEffect(() => {
     const img = document.getElementById("myPhoto");
     const secretDiv = document.getElementById("secretDiv");
