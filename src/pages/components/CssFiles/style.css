@@ -17,6 +17,7 @@ body {
     width: 100vw;
     overflow-x: hidden;
     overflow-y: scroll;
+    background-image: url(/src/pages/components/images/backGround.png);
 }
 
 #bg-image img{
