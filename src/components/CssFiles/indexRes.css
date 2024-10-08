@@ -1,0 +1,95 @@
+@media (max-width:960px){
+
+    .photoDiv {
+        top: 0%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        margin: auto;
+        position: relative;
+    }
+
+    #myPhoto {
+        position: absolute;
+    }
+
+    #secretDiv:hover {
+        transition: opacity 0.3s ease-in-out;
+    }
+
+    #secretDiv {
+        transform: translate(0, 0); 
+        font-size: 3.5vw;
+    }
+
+    #Todo {
+        display: contents;
+    }
+
+    #skills {
+        padding: 1%;
+        width: 80vw;
+        height: auto;
+        margin: auto;
+        margin-top: 12%;
+        justify-items: center;
+    }
+
+    #skills h2,
+    #skills h3,
+    #skills p {
+        font-size: 3.6vw;
+    }
+
+    #introduction {
+        flex-direction: column;
+        padding: 3.6%;
+        margin: auto;
+    }
+
+    #introduction h1 {
+        font-size: 4vw;
+        padding-bottom: 4%;
+        margin: auto;
+    }
+
+    #introduction h3{
+        margin: auto;
+        margin-left: 8%;
+        align-items: flex-end;
+        font-size: 2.8vw;
+    }
+
+    #introduction p {
+        margin:  auto;
+        align-items: flex-end;
+        font-size: 3vw;
+        padding: 1%;
+    }
+
+    #exp {
+        width: auto;
+        height: auto;
+        scale: 88%;
+        margin: auto;
+        margin-top: 0;
+        justify-items: center;
+        padding: 6%;
+        padding-bottom: 35px;
+    }
+
+    #exp p,
+    #exp h1,
+    #exp h2,
+    #exp h3 {
+        font-size:4vw;
+        padding: 2%;
+    }
+
+}
+
+@media (min-width: 961px) and (max-width: 1843px) { 
+    .photoDiv {
+        top: 60px;
+        right: -3vw;
+    }
+}

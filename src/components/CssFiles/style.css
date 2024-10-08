@@ -1,0 +1,116 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+#menu {
+    display: none;
+}
+
+body {
+    margin: 0%;
+    font-family: 'Segoe UI';
+    background-color: rgb(211, 205, 200);
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#bg-image img{
+    position: absolute;
+    z-index: -1;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    filter: blur(2px);
+    height: 100vh;
+    width: fit-content;
+    object-fit: cover;
+}
+#allcontent {
+    height: 100%;
+    margin: auto;
+}
+
+#content {
+    background-color: rgba(207, 207, 207, 0.75);
+    width: 92vw;
+    height: 75vh;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    vertical-align: middle;
+    margin: auto;
+    border-radius: 0 0 24px 24px;
+    box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.45);
+}
+
+#Todo {
+    Display: flex;
+}
+
+#content h1 {
+    margin: 0 20px 0 20px;
+}
+
+#navContent{
+    border-radius: 0 0 20px 20px;
+    background: #D9D9D9;
+    width: 100%;
+    box-shadow: 4px 4px 4px 8px rgba(0, 0, 0, 0.75);
+}
+
+#navContent ul{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    list-style: none;
+    padding: 15px;
+    display: flex;
+    padding-bottom: 30px;
+    font-size: 34px;
+    font-style: italic;
+    font-weight: 350;
+    color: #000;
+}
+
+#navContent li {
+    padding: 0 20px 0 20px;
+    margin: auto;
+}
+
+li span {
+    display: block;        
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.80);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.20);
+    font-family: "Segoe UI";
+    font-size: 34px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+}
+
+li {
+    list-style-type: none; 
+    text-align: center;    
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color: #000;
+}
+
+#navContent a:hover{
+    font-weight: 400;color: #11761D; 
+    text-shadow: 0px 8px 4px rgba(17, 118, 29, 0.50); 
+    -webkit-text-stroke-width: 1; 
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.20);
+}
+
+a#actualPag {
+    font-weight: 400;color: #11761D; 
+    text-shadow: 0px 8px 4px rgba(17, 118, 29, 0.50); 
+    -webkit-text-stroke-width: 1; 
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.20);
+}

@@ -1,0 +1,194 @@
+#content {
+    height: fit-content;
+}
+
+#introduction {
+    display: flex;
+    margin-left: 3%;
+    background: rgba(252, 250, 250, 0.55);
+    border-radius: 39px;
+    width: 80%;
+    padding: 1%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15)
+}
+
+#introduction h3 , #introduction p {
+    margin-top: 2.5%;
+    margin-bottom: 0;
+}
+
+#introduction h1 {
+    font-size: 62px;
+    color: #11761D; 
+    font-style: normal; 
+    font-weight: 350; 
+    line-height: normal;
+}
+
+#introduction h3 {
+    color: #000; 
+    font-size: 22px; 
+    font-style: normal; 
+    font-weight: 700; 
+    line-height: normal;
+    margin-right: 1.2%;
+    margin-left: 4%;
+}
+
+#introduction p {
+    color: #000; 
+    font-size: 20px;    
+    font-style: normal; 
+    font-weight: 350; 
+    line-height: normal;
+    padding-top: 0.3%;
+}
+
+.photoDiv {
+    position: absolute;
+    margin: 10.5vh 4%;
+    top: 0;
+    right: -1.5vw;
+    width: 21%;
+}
+
+#secretDiv {
+    position: absolute;
+    top: 50%; 
+    left: 37.5%; 
+    transform: translate(-44%, -50%); 
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400; 
+    opacity: 0;
+    align-content: center;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1;
+    color: #fff;
+}
+
+#myPhoto {
+    width: 0%;
+    background: rgba(17, 118, 29, 0.33);
+    border-radius: 100%;
+    transform: rotate(0deg);
+    transition: transform 1.7s ease-in-out, width 1.5s ease-in-out;
+    box-shadow: 1px 3px 2px 0px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+}
+#skills {
+    margin: 2vw;
+    background: rgba(252, 250, 250, 0.55);
+    border-radius: 39px;
+    padding: 0.5%;
+    width: 376px;
+    height: fit-content;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+#skills h2 {
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+#keySkills {
+    margin: 0 10%;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+}
+
+#languages p {
+    width: 100%;
+    margin: 0;
+    padding: 1.5%;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+}
+#languages {
+    margin: 14% 9%; 
+}
+#languages h2 {
+    margin-left: 4%;
+    margin-bottom: 2%;
+    justify-content: left; 
+}
+
+#lastSkills p {
+    font-weight: bold;
+    font-size: large;
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+#keySkills p{
+    margin: 0px;
+}
+
+#exp {
+    background: rgba(252, 250, 250, 0.55);
+    margin-top: 5vh;
+    border-radius: 39px;
+    padding: 1%;
+    width: 1130px;
+    height: fit-content;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    margin: 2vw;
+}
+
+#exp h1 {
+    display: flex; 
+    margin:auto; 
+    justify-content: center;
+}
+
+#exp h2 {
+    font-size: 22px;
+     font-style: italic;
+      font-weight: 700;
+}
+
+#exp h3 {
+    font-size: 20px; 
+    font-style: italic; 
+    font-weight: 600;
+}
+
+#exp1 , #exp2 {
+    margin-top: 27px;
+    margin-left: 30px;
+}
+#exp2 {
+    margin-top: 50px;
+}
+
+#exp p {
+    padding-left: 2.2%;
+    font-size: 20px; 
+    font-style: normal; 
+    font-weight: 320;
+    line-height: normal;
+}
+
+#exp1 h1 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    vertical-align: middle;
+}
+
+#myPhoto:hover {
+    transition: filter 0.1s ease-in-out;
+}

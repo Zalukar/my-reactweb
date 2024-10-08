@@ -1,0 +1,15 @@
+@media (max-width:960px){
+    
+    #contact {
+        flex-direction: column;
+        padding: 2%;
+        height: auto;
+        width: auto;
+    }
+
+    #contact li {
+        padding: 4%;
+        width: 45vw;
+        margin-bottom: 15%;
+    }
+}

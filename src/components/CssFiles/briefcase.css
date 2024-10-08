@@ -1,0 +1,79 @@
+#linkedin,
+#whatsapp,
+#gmail {
+    box-shadow: 0px 18px 9px 0px rgba(0, 0, 0, 0.25);
+    transition: transform 0.1s ease-in-out;
+    scale: 1;
+}
+
+#linkedin:hover,
+#whatsapp:hover,
+#gmail:hover {
+    text-shadow: 0px 8px 4px rgba(0, 0, 0, 0.40);
+    transition: transform 0.3s ease-in-out;
+}
+
+#contact  {
+    height: fit-content;
+    margin: 10vh auto;
+    font-size: larger;
+    font-style: italic;
+    list-style: none;
+    display: flex;
+}
+
+#contact p {
+    font-weight: bolder;
+    width: 100%;
+    margin: auto;
+    height: 30px;
+}
+
+#contact li {
+    margin: auto;
+    margin-bottom: 8vh;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 20vw;
+    height: 40vh;
+}
+
+#linkedin {
+    font-size: larger;
+    background-color: #D9D9D9;
+    width: 30%;
+    height: 100%;
+    border-radius: 39px;
+    align-content: center;
+    margin-top: 30%;
+}
+
+#whatsapp {
+    font-size: larger;
+    background-color: #D9D9D9;
+    width: 30%;
+    height: 100%;
+    border-radius: 39px;
+    align-content: center;
+}
+
+#gmail {
+    font-size: larger;
+    background-color: #D9D9D9;
+    width: 30%;
+    height: 100%;
+    border-radius: 39px;
+    align-content: center;
+}
+
+#linkedin img {
+    width: 50%;
+}
+
+#whatsapp img{
+    width: 50%;
+}
+#gmail img {
+    width: 50%;
+}
+
