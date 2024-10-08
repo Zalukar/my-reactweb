@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import gitHubImage from './components/images/gitHub.png';
 import cvImage from './components/images/Cv.png';
+import cvDownload from './components/files/HojaDeVidaESP.pdf'
 
 function Contact() {
 
@@ -72,7 +73,7 @@ function Contact() {
           </a>
         </li>
         <li id="stackOverflow">
-          <a href="files/HojaDeVidaESP.pdf" download="HojaDeVidaESP.pdf">
+          <a href={cvDownload} download="./components/files/HojaDeVidaESP.pdf">
             <img src={cvImage} id="imgLinked" alt="" />
             <span id="spanGit">Descarga mi Cv</span>
           </a>
